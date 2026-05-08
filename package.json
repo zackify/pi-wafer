@@ -1,0 +1,43 @@
+{
+  "name": "@zackify/pi-wafer",
+  "version": "0.1.0",
+  "description": "A pi extension that adds the Wafer Pass (wafer.ai) provider with paste-token OAuth and a footer that shows your live request quota and time until the next quota window.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackify/pi-wafer.git"
+  },
+  "homepage": "https://github.com/zackify/pi-wafer#readme",
+  "bugs": {
+    "url": "https://github.com/zackify/pi-wafer/issues"
+  },
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "wafer",
+    "wafer.ai",
+    "provider",
+    "tui"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
