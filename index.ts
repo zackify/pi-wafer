@@ -238,7 +238,10 @@ export default function (pi: ExtensionAPI) {
 		ensureFooter();
 		await refreshQuota();
 	});
-	pi.on("agent_end", async (_e, c) => {
+	// Refresh the moment a provider HTTP response arrives — fires per
+	// API call, before the stream body is consumed and well before the turn
+	// finishes (which waits for streaming + tool execution).
+	pi.on("after_provider_response", async (_e, c) => {
 		ctx = c;
 		await refreshQuota();
 	});
