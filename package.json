@@ -1,6 +1,6 @@
 {
   "name": "@zackify/pi-wafer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A pi extension that adds the Wafer Pass (wafer.ai) provider with paste-token OAuth and a footer that shows your live request quota and time until the next quota window.",
   "repository": {
     "type": "git",
