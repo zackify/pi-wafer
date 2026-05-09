@@ -1,6 +1,6 @@
 # pi-wafer
 
-A [pi](https://github.com/badlogic/pi) extension for the [Wafer Pass](https://www.wafer.ai/pass) provider — get every Wafer model in your pi model picker (DeepSeek V4 Pro, Qwen 3.5 397B, GLM 5.1, MiniMax M2.7, …), and a footer that shows your **live request quota** and the **time remaining until your next quota window** every turn.
+A [pi](https://pi.dev) extension for the [Wafer Pass](https://www.wafer.ai/pass) provider — get every Wafer model in your pi model picker (DeepSeek V4 Pro, Qwen 3.5 397B, GLM 5.1, MiniMax M2.7, …), and a footer that shows your **live request quota** and the **time remaining until your next quota window** every turn.
 
 ```
 ↑12.4k ↓3.1k 47/100 1hr 18.2%/262k (auto)        DeepSeek-V4-Pro • high
