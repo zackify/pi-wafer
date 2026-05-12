@@ -26,16 +26,8 @@ const baseModel = {
 };
 
 const MODELS = [
-	{
-		...baseModel,
-		id: "DeepSeek-V4-Pro",
-		name: "DeepSeek V4 Pro",
-		contextWindow: 262144,
-		compat: { ...baseCompat, thinkingFormat: "deepseek" as const },
-	},
 	{ ...baseModel, id: "Qwen3.5-397B-A17B", name: "Qwen 3.5 397B", contextWindow: 262144, compat: baseCompat },
 	{ ...baseModel, id: "GLM-5.1", name: "GLM 5.1", contextWindow: 202752, compat: baseCompat },
-	{ ...baseModel, id: "MiniMax-M2.7", name: "MiniMax M2.7", contextWindow: 204800, compat: baseCompat },
 ];
 
 // ── formatters ────────────────────────────────────────────────────────────
